@@ -1,0 +1,99 @@
+body {
+  font-family: sans-serif;
+  background-color: white;
+}
+
+/* navbar */
+.navbar {
+  position: absolute;
+  color: black;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  padding: 0 10px;
+  margin: 0;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 30px;
+  height: 80px;
+  float: left;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+}
+.wrapping {
+  float: right;
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  padding-right: 50px;
+  margin: 0 100px;
+  justify-content: center;
+  align-items: center;
+}
+ul > li {
+  list-style: none;
+  padding: 15px;
+}
+ul li a {
+  text-decoration: none;
+}
+/* content */
+
+#home {
+  position: relative;
+  margin: 200px 0;
+  background-color: white;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+#home h2 h3 {
+  font-size: 30px;
+}
+
+/* aboutme */
+#about_me {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin: 400px auto;
+}
+img {
+  float: left;
+  width: 20%;
+  margin-left: 10px;
+}
+#about_me h2 p {
+  color: black;
+  font-size: 20px;
+  text-align: left;
+  text-decoration: none;
+  float: right;
+}
+
+/* footer */
+
+.bottom-container {
+  background-color: white;
+  margin: 0;
+  padding: 50px 0 20px;
+  text-align: center;
+}
+
+a:hover {
+  color: black;
+}
+.contact-me {
+  margin: 60px;
+}
+hr {
+  border: none;
+}
+.copyright {
+  font-size: 0.75rem;
+}
